@@ -1,0 +1,40 @@
+body{
+    background: url('/animation/image/backgroud.png');
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+#goku{
+position: absolute;
+ height: 200px;
+ left: 0%;
+ top: 69%;
+ animation: gokivis 4s infinite;
+}
+
+#issoAi{
+    position: absolute;
+    height: 200px;
+    left: 90%;
+    top: 48%;
+}
+
+@keyframes gokivis{
+0%{
+    left: 10%;
+ top: 40%;
+}
+40%{
+    left: 10%;
+ top: 40%;
+}
+
+60%{
+    left: 25%;
+ top: 40%;
+}
+60
+
+}
